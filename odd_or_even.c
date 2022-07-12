@@ -6,7 +6,7 @@ printf("\n enter the value of a:");
 scanf("%d",&a);
 if (a% 2 == 0)
 {
-printf("\n a is even no");
+printf("\n \n \n a is even no");
 }
 else
 {
