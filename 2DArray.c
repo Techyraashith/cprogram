@@ -17,14 +17,15 @@ int main(void)
 	{
 		for( j=0; j<2; j++)
 		{
-			//printf("a[%d][%d] = ",i,j);
+			printf("a[%d][%d] = ",i,j);
 			printf("%d",a[i][j]);
-			printf("\t");		
+			//printf("\t");	
+			printf("\n");	
 			
 			
 		}
-		printf("\n");	
-		
+			
+		//
 			
 			
 		
