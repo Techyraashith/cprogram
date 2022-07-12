@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-	int t1,t2,t3,fo1,fo2,fo3,fr1,fr2,fr3,d1,d2,d3,;
+	int t1,t2,t3,fo1,fo2,fo3,fr1,fr2,fr3,d1,d2,d3,w;
 	
 	printf("enter t1:");
 	scanf("%d",&t1);
@@ -25,16 +25,23 @@ int main(void){
 	scanf("%d",&fo3);
 	printf("\n\n");
 	
-	printf("To = %d,%d,%d",& t1,t2,t3);
+	printf("To = %d,%d,%d",t1,t2,t3);
 	printf("\n\n");
-	printf("from = %d,%d,%d",& fr1,fr2,fr3);
+	printf("from = %d,%d,%d",fr1,fr2,fr3);
 	printf("\n\n");
-	printf("force = %d,%d,%d",& fo1,fo2,fo3);
+	printf("force = %d,%d,%d",fo1,fo2,fo3);
 	printf("\n\n");
 	d1 = t1 - fr1;
 	d2 = t2 - fr2;
 	d3 = t3 - fr3;
-	printf("Displacement = %d,%d,%d",&d1,d2,d3);
+	printf("\n\n=====Displacement======");
+	printf("\n\n Displacement = %d,%d,%d",d1,d2,d3);
+	printf("\n\n=====Displacement======");
+	printf("\n\n");
+	w=(d1*fo1)+(d2*fo2)+(d3*fo3);
+	printf("\n\n====workdone====");
+	printf("\n\n workdone = %d",w);
+	printf("\n\n====workdone====");
 	
 	
 	
