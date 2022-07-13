@@ -25,19 +25,29 @@ int main(void){
 	scanf("%d",&fo3);
 	printf("\n\n");
 	
-	printf("To = %d,%d,%d",t1,t2,t3);
+	printf("To = %di + %dj + %dk",t1,t2,t3);
 	printf("\n\n");
-	printf("from = %d,%d,%d",fr1,fr2,fr3);
+	printf("from = %di + %dj + %dk",fr1,fr2,fr3);
 	printf("\n\n");
-	printf("force = %d,%d,%d",fo1,fo2,fo3);
+	printf("force = %di + %dj + %dk",fo1,fo2,fo3);
 	printf("\n\n");
 	d1 = t1 - fr1;
 	d2 = t2 - fr2;
 	d3 = t3 - fr3;
+	printf("\n\n Displacements = To - From\n");
+    printf("\n %di + %dj + %dk",t1,t2,t3);
+    printf("\n -(%di + %dj + %dk)",fr1,fr2,fr3);
+    printf("\n%di + %dj + %dk\n\n",d1,d2,d3);
+
 	printf("\n\n=====Displacement======");
 	printf("\n\n Displacement = %d,%d,%d",d1,d2,d3);
 	printf("\n\n=====Displacement======");
 	printf("\n\n");
+	printf("\n\n Work Done = Force . Displacement \n");
+	printf("\n (%di + %dj + %dk)",fo1,fo2,fo3);
+    printf(" . ");
+    printf("(%di + %dj + %dk)\n\n",d1,d2,d3);
+
 	w=(d1*fo1)+(d2*fo2)+(d3*fo3);
 	printf("\n\n====workdone====");
 	printf("\n\n workdone = %d",w);
